@@ -14,6 +14,11 @@ namespace ParallelQuickSort
             set;
         }
 
+        public ParallelQuickSort()
+        {
+            Numbers = new List<int>();
+        }
+
         /// <summary>
         /// Sorts the array of numbers using a parallel quick sort implementation.
         /// </summary>
